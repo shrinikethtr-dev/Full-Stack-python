@@ -1,0 +1,10 @@
+a=90           //integer declaration
+b=90.89        //double declaration
+x=3.1415929    //float declaration';
+c=1+2j         //complex decaration
+d="string"     //string declaration
+bool e=True    //Boolean declaration
+f=[1,2,3]       //list declaration
+g=(1,2,3,4)     //tuple declaration
+h={1.2.3.4.5}       //set declaration
+L={1:"A",2:"B"}     //dictionary declaration
