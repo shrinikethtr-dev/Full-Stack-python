@@ -1,0 +1,75 @@
+looping statements:
+1)for statement:
+
+a=8
+for i in range(0,a):
+    print("Loop");
+
+2)while statement:
+
+a=10
+i=0
+while(i<a):
+    print("Enter");
+    i+=1
+
+Conditional statement:
+3)if-else statement:
+
+A=int(input("Enter input:"))
+B=int(input("Enter input:"))
+if(A%B==0):
+    print("it is dividable");
+else:
+    print("it is not dividable, so remainder is",A%B);
+
+4)elif statement:
+
+A=int(input("Enter input:"))
+B=int(input("Enter input:"))
+C=int(input("Enter input:"))
+if A==B && B==C:
+   print("All are equal");
+elif A>B:
+   print("A is greater than B");
+elif B>C:
+   print("B is greater than C");
+else:
+   print("C is greater");
+
+5)nested if statement:
+
+A=int(input("Enter:"))
+B=int(input("Enter:"))
+if A>B:
+   if A%B==0:
+      print(A);
+   else:
+      print("it is just greater");
+else:
+    print("it is not greater");
+
+6)if-else in for loop:
+
+A=int(input("Enter:"))
+for i in range(0,A):
+    if(i%2!=0):
+        print(i,"is Odd.")
+    else:
+        print(i,"is not Odd.")
+
+
+7)if ID is Not available or present:
+
+List=[1001,1002,1003,1004,1005,1006,1007,1008,1009,1010]
+ID=int(input("Enter ID:"))
+if ID in List:
+   print("Present");
+else:
+   print("Not Available");
+
+8)to skip numbers:
+
+for i in range(0,20,3):
+    print(i)
+
